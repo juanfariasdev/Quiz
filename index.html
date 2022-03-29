@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta favicon="favicon.ico">
+    <meta name="description" content="Desenvolvido por Juanfariasdev">
+    <meta name="description" content="Jokenpô feito por Juan Pablo Farias">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Jokenpô</title>
+</head>
+
+
+<h1>QUIZ DO MILHÃO - <span id="pontuacao">0</span> pontos</h1>
+<h3 id="pergunta">...</h3>
+<h2 id="verificador"></h2>
+<input type="text" id="resposta" value="">
+<button id="btn-resposta" onclick="Quiz()">Responder</button>
+
+
+<button id="btn-reiniciar" onclick="generateQuestion()">Gerar pergunta</button>
+
+<body>
+    <script src="./geradorPerguntas.js"></script>
+</body>
+
+</html>
